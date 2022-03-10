@@ -16,16 +16,8 @@ function App() {
           <li>C</li>
           <li>T</li>
         </ul>
-        {/* <ul id = "counter">
-          <li>C</li>
-          <li>O</li>
-          <li>U</li>
-          <li>N</li>
-          <li>T</li>
-          <li>E</li>
-          <li>R</li>
-        </ul> */}
       </span>
+      {/* <h1 className = {count > 0 ? "positive" : count < 0 ? "negative" : null}>{count}</h1> */}
       <h1 className = {count > 0 ? "positive" : count < 0 ? "negative" : null}>{count}</h1>
       <div className = "button-wrapper">
         <button onClick = {() => setCount(count-1)}>-</button>

@@ -1,6 +1,7 @@
 // color variables:
 $clr-negative: #ff1744;
 $clr-positive: #2abf77;
+$clr-neutral: #425a65;
 $clr-gray100: #f0f7f8;          // background color
 $clr-gray200: #cfd8dc;
 $clr-gray300: #a7b7be;          
@@ -73,6 +74,11 @@ h1 {
     animation: pulse 500ms ease-in-out;
 }
 
+.neutral {
+    color: $clr-neutral;
+    animation: pulse 500ms ease-in-out;
+}
+
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -118,16 +124,11 @@ h1 {
     }
 }
 
-// p {
-//     font-size: 3rem;
-
-// }
-
 #react
 {
 	position: absolute;
 	top:20%;
-	left:35%;
+	left:50%;
 	transform:translate(-50%, -50%);
 	margin:0;
 	padding:0;
@@ -145,37 +146,7 @@ ul li
 	animation: animate 1.2s linear infinite; 
 }
 
-#counter
-{
-    & > * {
-        position: absolute;
-        top:20%;
-        left:65%;
-        transform:translate(-50%, -50%);
-        margin:0;
-        padding:0;
-        display: flex;
 
-        list-style: none;
-        color: #484848;
-        font-size: 5em;
-        font-family: verdana;
-        letter-spacing: 20px;
-        animation: animate 1.2s linear infinite; 
-    }
-}
-
-
-#counter
-{
-	position: absolute;
-	top:20%;
-	left:65%;
-	transform:translate(-50%, -50%);
-	margin:0;
-	padding:0;
-	display: flex;
-}
 
 #react {
     & > li:nth-child(1)

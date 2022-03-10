@@ -79,6 +79,12 @@ h1 {
           animation: pulse 500ms ease-in-out;
 }
 
+.neutral {
+  color: #425a65;
+  -webkit-animation: pulse 500ms ease-in-out;
+          animation: pulse 500ms ease-in-out;
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -142,7 +148,7 @@ h1 {
 #react {
   position: absolute;
   top: 20%;
-  left: 35%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0;
@@ -160,39 +166,6 @@ ul li {
   letter-spacing: 20px;
   -webkit-animation: animate 1.2s linear infinite;
           animation: animate 1.2s linear infinite;
-}
-
-#counter > * {
-  position: absolute;
-  top: 20%;
-  left: 65%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  color: #484848;
-  font-size: 5em;
-  font-family: verdana;
-  letter-spacing: 20px;
-  -webkit-animation: animate 1.2s linear infinite;
-          animation: animate 1.2s linear infinite;
-}
-
-#counter {
-  position: absolute;
-  top: 20%;
-  left: 65%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 #react > li:nth-child(1) {
